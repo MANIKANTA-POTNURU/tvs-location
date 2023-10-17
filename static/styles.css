@@ -1,0 +1,95 @@
+html {
+    height: 100%;
+    margin: 0;
+    background: rgb(44, 47, 59);
+    background: -webkit-linear-gradient(to right, rgb(40, 59, 34), rgb(54, 60, 70), rgb(32, 32, 43));
+    background: linear-gradient(to right, rgb(38, 51, 61), rgb(50, 55, 65), rgb(33, 33, 78));
+}
+
+.chatbot {
+    width: 500px;
+    height: 600px;
+    border: 2px solid #ccc;
+    border-radius: 15px !important;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem 0 !important;
+}
+
+.save-button-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.save-button-container button {
+    padding: 10px 20px; /* Adjust padding for the icon */
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background: #0074D9; /* Change the background color for the "Save Chat" button */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.messages {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.input-send-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    flex: 1;
+    padding: 10px 40px 10px 10px; /* Add padding for the icon */
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px; /* Adjust padding for the icon */
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Style for icons within the input box */
+input i {
+    margin-right: 10px;
+}
+
+/* Style for icons within the send button */
+button i {
+    margin-right: 5px;
+}
+
+.bot-message {
+    background-color: #e6e6e6;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-content: center;
+}
+
+.user-message {
+    align-self: flex-end;
+    background-color: #4CAF50;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+}

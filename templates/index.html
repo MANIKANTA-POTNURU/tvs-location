@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+    <title>TVS Locator Chatbot</title>
+</head>
+
+<body>
+    <div class="chatbot">
+        <div class="save-button-container">
+            <button id="saveBtn"><i class="fas fa-save"></i> Save Chat</button>
+        </div>
+        <div class="messages"></div>
+        <div class="input-send-container">
+            <input type="text" id="userInput" placeholder="Type a message...">
+            <button id="sendBtn"><i class="fas fa-paper-plane"></i> Send</button>
+        </div>
+    </div>
+</body>
+
+</html>

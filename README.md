@@ -11,7 +11,7 @@ Render Link:https://tvs.onrender.com/
 
 
 
-![image](https://github.com/MANIKANTA-POTNURU/tvs-location/assets/110116617/e5bc3dc7-835f-4fe8-b02f-0f8edb0cf75a)
+
 
 ![image](https://github.com/MANIKANTA-POTNURU/tvs-location/assets/110116617/2813e149-7052-47b0-8de6-6c4a83b1bed5)
 ![image](https://github.com/MANIKANTA-POTNURU/tvs-location/assets/110116617/d3c23339-588e-41aa-ac96-73e7c4cf6c84)

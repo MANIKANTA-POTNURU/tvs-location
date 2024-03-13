@@ -1,4 +1,4 @@
-# tvs-location
+# Tvs-location
 Render Link:https://tvs.onrender.com/
 # colab link:https://colab.research.google.com/drive/1-gs2RZqEAjAVeEqVNSXmSNU7vuVYGf9-?usp=sharing
 ![image](https://github.com/MANIKANTA-POTNURU/tvs-location/assets/110116617/112cf685-e8e8-4789-bb2e-7a6106dd502d)
